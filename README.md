@@ -68,10 +68,3 @@ Adapt-Ed integrates a suite of tools and services designed to address diverse ac
 4. **Follow Installation Instructions (for Chrome Extensions)**:  
    For Chrome extensions, follow the installation instructions provided on the platform to integrate the desired accessibility features into your browsing experience.
 
-## Contributors
-
-The Adapt-Ed project is made possible by contributions from various individuals. Explore the list of contributors on [GitHub](https://github.com/rahulkarda/hackwave_nextgencoders/graphs/contributors).
-
----
-
-Thank you for joining us in our mission to create a more inclusive digital environment with Adapt-Ed! If you have any feedback or suggestions, we'd love to hear from you.
