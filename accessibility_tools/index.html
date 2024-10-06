@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Tools</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to Our Website</h1>
+        <p>This is a sample paragraph. This text will change size when you use the zoom options.</p>
+        <img src="download.jpeg" alt="An example image" />
+        <p>Feel free to use the accessibility tools!</p>
+    </div>
+
+    <!-- Accessibility Tools Icon -->
+    <div class="tools-icon" id="toolsIcon">
+        ⚙️ Accessibility Tools
+    </div>
+
+    <!-- Accessibility Widget -->
+    <div class="accessibility-widget" id="accessibilityWidget">
+        <h2>Accessibility Tools</h2>
+        <button class="accessibility-button" id="zoomInButton">🔍 Zoom In</button>
+        <button class="accessibility-button" id="zoomOutButton">🔍 Zoom Out</button>
+        <button class="accessibility-button" id="cursorButton">🖱️ Change Cursor</button>
+        <button class="accessibility-button" id="grayscaleButton">⚫ Grayscale</button>
+        <input type="range" id="grayscaleSlider" min="0" max="100" value="0" style="display: none;">
+        <button class="accessibility-button" id="brightnessButton">☀️ Brightness</button>
+        <input type="range" id="brightnessSlider" min="50" max="150" value="100" style="display: none;">
+        <button class="accessibility-button" id="imageButton">🖼️ Toggle Alt Text</button>
+        <style>.ra-button {padding: .3em .9em; border-radius: .25em; background: linear-gradient(#fff, #efefef); box-shadow: 0 1px .2em gray; display: inline-flex; align-items: center; cursor: pointer;} .ra-button svg {height: 1em; margin: 0 .5em 0 0;}</style>
+            <div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default"><div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><svg viewBox="0 0 80 100"><polygon points="80,50 0,100 0,0 80,50" fill="#484848"/></svg> Listen to this article</div></div>
+            <audio id="ra-audio" data-lang="en-US" data-voice="Amazon2 Danielle" data-key="1642f9c31f8331cf1447c2f5d5cab04d"></audio>
+            <script>function readAloud(e,n){var s="https://assets.readaloudwidget.com/embed/",t=(/iPad|iPhone|iPod/.test(navigator.userAgent)&&(e.src=s+"sound/silence.mp3",e.play(),"undefined"!=typeof speechSynthesis&&speechSynthesis.speak(new SpeechSynthesisUtterance(" "))),document.createElement("script"));t.onload=function(){readAloudInit(e,n)},t.src=s+"js/readaloud.min.js",document.head.appendChild(t)}</script>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
