@@ -272,14 +272,14 @@
 }
 
 
-/*** Categories & Courses ***/
+/*** Categories & tools ***/
 .category img,
-.course-item img {
+.Tools-item img {
     transition: .5s;
 }
 
 .category a:hover img,
-.course-item:hover img {
+.Tools-item:hover img {
     transform: scale(1.1);
 }
 

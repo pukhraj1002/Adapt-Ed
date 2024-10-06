@@ -1,6 +1,6 @@
-  =>  Template Name    : eLEARNING - eLearning HTML Template
+  =>  Template Name    : Adapt-Ed - Adapt-Ed HTML Template
 
-  =>  Template Link    : https://htmlcodex.com/elearning-html-template
+  =>  Template Link    : https://htmlcodex.com/Adapt-Ed-html-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
